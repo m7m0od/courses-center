@@ -1,0 +1,45 @@
+* {box-sizing: border-box;}
+nav{background-color: gray;}
+.first-content img{width: 30%;}
+.collapse{margin-left: 300px!important;}
+.second-content ul li{display: inline-block;margin-right: 20px;}
+.second-content ul li a{text-decoration: none;color: #EEE;}
+.second-content ul li a:hover{color: aqua;}
+.second-content .dropdown-menu{margin: 10px;top: 30px;right: -5px;}
+.second-content .dropdown-menu li{display: block;}
+.second-content .dropdown-menu li a{text-decoration: none;color:black;margin: 10px;}
+@media screen and (max-width:912px) {.collapse{margin-left: 0!important;}.form{width: 75%;}}
+
+.forWidth{width: 400px;margin:150px auto;}
+.forWidth .form-control{margin: 10px;}
+.forWidth .d-grid{margin-left:18px;}
+
+.form{width: 50%;margin: auto;}
+.form .form-group{margin-bottom: 10px;}
+.form .form-group label{width: 100px;}
+.form .form-group .forRes{position:relative;width: 80%!important;display: inline-grid!important;}
+.form .form-group i{position: absolute;top: 12px;right: 15px; font-size: 10px;}
+.form .form-group .alert-danger,.alert-danger p{margin-bottom: 0!important;}
+.form .form-group .sub{width: 100%!important;display: inline!important;}
+.form .form-group .custom-alert{padding: 5px 10px;display:none;}
+
+.main-table tbody tr td img{width: 50px;height: 50px;border-radius: 20px;}
+
+.dashboard .content{border: 2px solid rgb(110, 108, 108);}
+.dashboard .min-content{display: inline-block;width: 150px;height: 150px;border-radius: 50px;text-align: center; margin: 5px;}
+.dashboard .Mone{background-color: #C0392B;}
+.dashboard .Mtwo{background-color: #D35400;}
+.dashboard .Mthree{background-color: #8E44AD;}
+.dashboard .Mfour{background-color: aqua;}
+.dashboard .min-content span{display: inline-block;margin-top: 45px;font-size: 30px;}
+
+.ProfileImg{width: 300px;height: 300px;transition: transform 1s 1s;}
+.designIndex{position: relative;padding: 10px;border: 3px solid rgb(126, 124, 124);background-color:#F0F0F0 ;text-align: center;overflow: hidden;}
+.designIndex span{position: absolute;top: 5px;right: 10px;background-color: aquamarine;padding: 10px;border-radius: 10px;}
+.designIndex p{display: inline;font-size: 20px;margin-left: 10px;}
+.first .son{background-color: rgba(42,63,85,0.6);width: 100%;height: 100%;position: absolute;left: 100%;top: 0;transition: left 1s,transform 1s;}
+.first:hover .son{left: 0; transform: rotate(360deg);}
+.first:hover img{transform:scale(1.1,1.1);}
+.mahmoud{background-color: #2A3f55;padding: 10px;position: relative;left: 120%;transition: left 1s 2s;color: #F0F0F0;}
+.par{padding: 15px;font-size: 18px;position: relative;left: 120%;transition: left 1s 2.5s;color: #FFF;}
+.first:hover .mahmoud,.first:hover .par{left: 0;}
